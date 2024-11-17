@@ -1,5 +1,6 @@
 import { Stack } from "expo-router";
-import { StatusBar, StatusBarStyle } from "react-native";
+import { StatusBar } from "expo-status-bar";
+import { StatusBarStyle } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { colors } from "./constants/tokens";
 
@@ -8,16 +9,11 @@ const App=()=>{
   return(
     <SafeAreaProvider>
       <RootLayout/>
-      <StatusBar  hidden={false} />
-      
-
-
+      <StatusBar  style="auto" />
 
     </SafeAreaProvider>
   ) 
 }
-
-
 
 
  function RootLayout() {

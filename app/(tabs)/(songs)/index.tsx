@@ -5,9 +5,8 @@ import { defaultStyles } from '@/app/styles'
 const SongScreen= () => {
   return (
     <View style={defaultStyles.container}>
-        <Text style={defaultStyles.text}>
-            Song list
-        </Text>
+        <Text style={defaultStyles.text}> Song list </Text>
+        <Text style={defaultStyles.text}> Song list </Text>
     </View>
   )
 }
